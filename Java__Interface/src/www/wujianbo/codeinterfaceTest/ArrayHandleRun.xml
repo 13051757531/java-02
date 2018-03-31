@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite-1">
+	<test name= "Test-1" preserve-order="true">
+	   <groups>
+	   		<run>
+	   			<include name= "group2"/>
+	   		</run>
+	   </groups>
+	   
+	   
+		<classes>
+			<class name="www.wujianbo.testng.ArrayHandleTest">
+				<methods>
+					<include name= "arraySort"/>
+					<exclude name= "arrayCompare"/>
+				</methods>
+			</class>
+		</classes>
+		
+		
+	</test>
+</suite>

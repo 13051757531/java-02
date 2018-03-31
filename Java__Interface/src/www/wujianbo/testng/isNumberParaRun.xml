@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite-3">
+	<test name= "Test-3" preserve-order="true">  
+	
+		<parameter name= "number" value= "12345" />
+		<parameter name= "expect" value= true />
+		<classes>
+			<class name="www.wujianbo.testng.StringHandlerTestPara"/>
+		</classes>
+		
+		
+	</test>
+</suite>
